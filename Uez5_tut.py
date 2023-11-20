@@ -178,30 +178,3 @@ def sum_of_special_numbers(n):
     return special_sum
 
 
-
-
-def main():
-# print tests for all the above functions
-
-    print("search_array([1, 2, 3, 4, 5], 3) ==", search_array([1, 2, 3, 4, 5], 3))
-    print("search_array([1, 2, 3, 4, 5], 6) ==", search_array([1, 2, 3, 4, 5], 6))
-    print("search_array([1, 2, 3, 4, 5], 5) ==", search_array([1, 2, 3, 4, 5], 5))
-    print("search_array([1, 2, 3, 4, 5], 1) ==", search_array([1, 2, 3, 4, 5], 1))
-
-    print("selection_sort([1, 2, 3, 4, 5], True) ==", selection_sort([1, 2, 3, 4, 5], True))
-    print("selection_sort([1, 2, 3, 4, 5], False) ==", selection_sort([1, 2, 3, 4, 5], False))
-    print("selection_sort([5, 4, 3, 2, 1], True) ==", selection_sort([5, 4, 3, 2, 1], True))
-
-    print("sum_array([1, 2, 3, 4, 5]) ==", sum_array([1, 2, 3, 4, 5]))
-    print("sum_array([1, 2, 3, 4, 5, 'a']) ==", sum_array([1, 2, 3, 4, 5, 'a']))
-    print("sum_array([1, 2, 3, 4, 5, 'a', 'b']) ==", sum_array([1, 2, 3, 4, 5, 'a', 'b']))
-
-    stack = []
-    push(stack, 1)
-    push(stack, 2)
-    push(stack, 3)
-
-    print("stack ==", stack)
-    print("pop(stack) ==", pop(stack))
-    print("stack ==", stack)
-    print("pop(stack) ==", pop(stack))
